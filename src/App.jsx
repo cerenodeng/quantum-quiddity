@@ -1,5 +1,6 @@
+import Grid from './Grid';
 import './App.css';
 
 export default function App() {
-	return <div></div>;
+	return <Grid />;
 }
