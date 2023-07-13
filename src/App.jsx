@@ -1,9 +1,5 @@
-import Grid from './Grid';
+import './PhaserGame';
 
 export default function App() {
-	return (
-		<div className="p-20">
-			<Grid />
-		</div>
-	);
+	return <div id="phaser-container" className=""></div>;
 }
