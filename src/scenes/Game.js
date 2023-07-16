@@ -9,7 +9,10 @@ export default class Game extends Phaser.Scene {
 
   preload() { }
 
-  create() { }
+  create() {
+    this.add.image(10, 10, 'indoor', 0);
+    this.add.image(24, 10, 'indoor', 1);
+  }
 
   update() { }
 }
