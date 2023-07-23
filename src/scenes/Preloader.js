@@ -9,8 +9,8 @@ export default class Preloader extends Phaser.Scene {
 
   preload() {
     this.load.spritesheet('indoor', 'textures/roguelikeIndoor_transparent.png', {
-      frameWidth: 16
-    })
+      frameWidth: 16, frameHeight: 16, spacing: 1, startFrame: 0, endFrame: 485
+    });
   }
 
   create() {
